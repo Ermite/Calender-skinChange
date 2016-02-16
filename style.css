@@ -1,0 +1,38 @@
+body,div,h2,p,ul{
+	margin: 0;
+	padding: 0;
+}
+.CalenderBG{
+	width: 580px;
+	height: 830px;
+	margin: 0 auto;
+	padding: 0 10px 20px 20px;
+	background: url(img/Inf.jpg);
+}
+.active{
+	background: #eee !important;
+	color: #e84a7e !important;
+
+}
+#month{
+	width: 530px;
+	height: 490px;
+	margin: 0 auto;
+}
+#month li{
+	list-style: none;
+	width:80px;
+	margin: 30px 30px 0 50px ;
+	height: 80px;
+	line-height: 80px;
+	font-size: 24px;
+	text-align: center;
+	opacity: 0.6;
+	color: #fff;
+	background: #555;
+	filter:alpha(opacity=60);
+	float: left;
+}
+#text{
+	margin: 20px 90px 0 70px;
+}
